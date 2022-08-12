@@ -37,3 +37,4 @@ Temporary Items
 
 # Trunk
 dist/
+.direnv
