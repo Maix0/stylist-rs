@@ -108,7 +108,7 @@ pub fn root() -> Html {
 
 fn main() {
     console_log::init_with_level(Level::Trace).expect("Failed to initialise Log!");
-    yew::start_app::<Root>();
+    yew::Renderer::<Root>::new().render();
 }
 
 #[cfg(test)]

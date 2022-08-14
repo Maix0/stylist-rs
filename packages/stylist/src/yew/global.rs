@@ -42,6 +42,8 @@ pub struct GlobalProps {
 ///     }
 /// }
 /// ```
+
+
 #[function_component(Global)]
 pub fn global(props: &GlobalProps) -> Html {
     let mgr = use_context::<StyleManager>().unwrap_or_default();
